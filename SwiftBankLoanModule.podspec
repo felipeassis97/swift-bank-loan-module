@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'felipeassis97' => 'felipeassis97@gmail.com' }
   s.source           = { :git => 'git@github.com:felipeassis97/swift-bank-loan-module.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.0'
   s.swift_version = '5.0'
   s.source_files = 'Classes/**/*'
   

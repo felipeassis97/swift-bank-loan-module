@@ -46,7 +46,7 @@
 		32EA2DB1A503B0F38ED3D3107B6AE674 /* SwiftBankLoanModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftBankLoanModule-dummy.m"; sourceTree = "<group>"; };
 		356284C9C8415EFCF0EF57C109064C74 /* Pods-SwiftBankLoanModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBankLoanModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		3915FDF3C6349DAB6BD42D5233138304 /* Pods-SwiftBankLoanModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBankLoanModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3933DD2BC933C26D121B93620D0AD454 /* SwiftBankLoanModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftBankLoanModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3933DD2BC933C26D121B93620D0AD454 /* SwiftBankLoanModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftBankLoanModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		394F6379C294013DE90C27FAEFD91F21 /* Pods_SwiftBankLoanModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBankLoanModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E2E8C5B3E7CEAC52AE55218613B2FB /* SwiftBankLoanModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftBankLoanModule.modulemap; sourceTree = "<group>"; };
 		5B5579EEF7DBCD0C7D7C87A75E168923 /* Pods-SwiftBankLoanModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBankLoanModule_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -433,7 +433,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftBankLoanModule/SwiftBankLoanModule-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftBankLoanModule/SwiftBankLoanModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftBankLoanModule/SwiftBankLoanModule.modulemap";
 				PRODUCT_MODULE_NAME = SwiftBankLoanModule;
@@ -465,7 +465,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Tests/Pods-SwiftBankLoanModule_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Tests/Pods-SwiftBankLoanModule_Tests.modulemap";
@@ -498,7 +498,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Tests/Pods-SwiftBankLoanModule_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Tests/Pods-SwiftBankLoanModule_Tests.modulemap";
@@ -594,7 +594,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftBankLoanModule/SwiftBankLoanModule-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftBankLoanModule/SwiftBankLoanModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftBankLoanModule/SwiftBankLoanModule.modulemap";
 				PRODUCT_MODULE_NAME = SwiftBankLoanModule;
@@ -627,7 +627,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Example/Pods-SwiftBankLoanModule_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Example/Pods-SwiftBankLoanModule_Example.modulemap";
@@ -663,7 +663,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Example/Pods-SwiftBankLoanModule_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBankLoanModule_Example/Pods-SwiftBankLoanModule_Example.modulemap";
