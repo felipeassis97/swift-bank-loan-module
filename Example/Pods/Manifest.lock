@@ -1,0 +1,16 @@
+PODS:
+  - SwiftBankLoanModule (0.1.0)
+
+DEPENDENCIES:
+  - SwiftBankLoanModule (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftBankLoanModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftBankLoanModule: 0afe0636aed6beca21f375ae73b8407e817ba530
+
+PODFILE CHECKSUM: 054bfb816b35c19be73e96c194323fbec8d77801
+
+COCOAPODS: 1.15.2

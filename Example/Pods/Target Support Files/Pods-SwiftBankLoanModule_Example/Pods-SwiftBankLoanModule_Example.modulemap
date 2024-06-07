@@ -1,0 +1,6 @@
+framework module Pods_SwiftBankLoanModule_Example {
+  umbrella header "Pods-SwiftBankLoanModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

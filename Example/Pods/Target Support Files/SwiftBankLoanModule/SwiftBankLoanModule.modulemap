@@ -1,0 +1,6 @@
+framework module SwiftBankLoanModule {
+  umbrella header "SwiftBankLoanModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
