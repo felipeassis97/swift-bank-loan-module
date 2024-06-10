@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftBankLoanModule'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Loan module'
   s.description      = 'Loan module for Swift Bank'
   s.homepage         = 'https://github.com/felipeassis97/swift-bank-loan-module'
